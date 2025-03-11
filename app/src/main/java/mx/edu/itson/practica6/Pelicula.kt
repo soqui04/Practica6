@@ -5,5 +5,6 @@ data class Pelicula(
     val imagen: Int,
     val descripcion: String,
     val header: Int,
-    val categoria: String // "Pelicula" o "Serie"
+    val categoria: String, // "Pelicula" o "Serie"
+    val seats: ArrayList<Int> = arrayListOf() // Lista de asientos ocupados
 )

@@ -39,6 +39,28 @@
             android:text="aquí la descripción de la película"
             android:textColor="@color/yellow"
             android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buyTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Tickets"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/seatsLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 seats available"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
     </LinearLayout>
 
 </LinearLayout>
